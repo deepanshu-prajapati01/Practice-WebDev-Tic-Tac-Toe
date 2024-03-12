@@ -1,5 +1,3 @@
-Sure, here's the modified README file for your Tic-Tac-Toe project:
-
 # Practice-WebDev-Tic-Tac-Toe: Your Personal Learning Experience
 
 ---
