@@ -1,0 +1,126 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(145, 156, 156)
+}
+
+.navigation-bar{
+    background-color: black;
+    color: white;
+    padding: 2vh 2vh;
+    height: 4vh;
+    display: flex;
+    align-items: center;
+}
+
+.navigation-bar ul{
+    list-style-type: none;
+    font-weight: bolder;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+}
+
+.gameContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 10vw);
+    grid-template-rows: repeat(3, 10vw);
+
+    
+}
+
+.box{
+    border: solid 2px black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 8vw;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box:hover{
+    background-color: rgb(169, 198, 198);
+}
+
+
+/* SIDE PANEL FOR GAME INFORMATION */
+.gameInfo{
+    margin-left: 5vw;
+}
+
+
+
+.welcome-msg{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 3vw;
+}
+
+.userTurn{
+    margin-top: 3vh;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.5vw;
+}
+
+#winner{
+    margin-top: 3vh;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2vw;
+}
+
+#reset{
+    margin-top: 3vh;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 4vh;
+    border: solid black 2px;
+    background-color: rgb(210, 207, 207);
+    padding: 2px 8px;
+    border-radius: 12px;
+}
+
+#reset:hover{
+    background-color: rgb(235, 231, 231);
+    cursor: pointer;
+}
+
+#reset:active{
+    font-size: 3.9vh;
+    margin-bottom: 0.2vh;
+}
+
+
+#gif{
+    margin-top: 4vh;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2vw;
+    width: 20vw;
+    opacity: 0;
+    transition: opacity 0.1s ease-in;
+}
+
+/* 4 bt, bl, br, bb to remove border from top left right and bottom */
+.b-t{
+    border-top: 0;
+}
+
+.b-l{
+    border-left: 0;
+}
+
+.b-r{
+    border-right: 0;
+}
+
+.b-b{
+    border-bottom: 0;
+}
