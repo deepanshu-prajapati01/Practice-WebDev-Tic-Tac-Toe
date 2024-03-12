@@ -1,8 +1,8 @@
-# Practice-WebDev-Tic-Tac-Toe: Your Personal Learning Experience
+# Practice-WebDev-Tic-Tac-Toe: My Personal Learning Experience
 
 ---
 
-Looking for a fun and interactive way to learn web development? Want to create your own game? Look no further!
+This project was easy and was very fun after i completed project before.
 
 **Practice-WebDev-Tic-Tac-Toe** is a basic web development project designed to help beginners understand the fundamentals of HTML, CSS, and JavaScript. It's a simple Tic-Tac-Toe game that you can play locally in your browser.
 
